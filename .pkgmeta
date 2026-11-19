@@ -9,3 +9,4 @@ externals:
 ignore:
   - README.md
   - test_resolve.lua
+  - .github
