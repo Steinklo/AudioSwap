@@ -6,6 +6,7 @@
 ## SavedVariables: AudioSwapDB
 ## IconTexture: Interface\Icons\INV_Misc_Bell_01
 ## X-Curse-Project-ID: 1816310
+## X-Wago-ID: 56nb3m69
 
 Libs\LibStub\LibStub.lua
 Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
