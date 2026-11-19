@@ -1,0 +1,15 @@
+## Interface: 16001
+## Title: AudioSwap
+## Notes: Sound profiles you switch by hand or automatically by situation.
+## Author: David Håland
+## Version: @project-version@
+## SavedVariables: AudioSwapDB
+## IconTexture: Interface\Icons\INV_Misc_Bell_01
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+AudioSwap.lua
+UI.lua
