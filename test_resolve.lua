@@ -117,7 +117,7 @@ assert(ns.db == saved and saved.profiles.Loud and saved.order[1] == "group")
 assert(popups == 1) -- no welcome after the first run
 
 -- Every file the TOC loads exists
-for line in io.lines("AudioSwap_Forever.toc") do
+for line in io.lines("AudioSwap.toc") do
 	if line:match("%.lua$") then
 		assert(io.open((line:gsub("\\", "/"))), "TOC file missing: " .. line):close()
 	end
